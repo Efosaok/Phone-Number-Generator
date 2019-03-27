@@ -1,0 +1,10 @@
+.gen-input {
+  width: 500px;
+  outline: none;
+  padding-left: 10px;
+  height: 20px;
+}
+
+.gen-input-section {
+  padding-bottom: 10px;
+}
