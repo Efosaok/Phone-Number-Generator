@@ -11,7 +11,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test && codecov --token=91b9b2fc-6326-45e1-be42-9d6aa14de7de",
+    "test": "react-scripts test --coverage && codecov --token=91b9b2fc-6326-45e1-be42-9d6aa14de7de",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
