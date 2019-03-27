@@ -1,0 +1,37 @@
+{
+  "name": "phine-number-generator",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "random-number": "0.0.9",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-scripts": "2.1.8"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test && codecov --token=91b9b2fc-6326-45e1-be42-9d6aa14de7de",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "<rootDir>/src/App.js",
+      "<rootDir>/src/GenerateNumbers.jsx",
+      "<rootDir>/src/generatePhoneNumber.js"
+    ]
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "dom-testing-library": "^3.18.2",
+    "react-testing-library": "^6.0.3"
+  }
+}
